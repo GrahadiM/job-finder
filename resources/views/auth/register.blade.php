@@ -59,7 +59,7 @@
 <body>
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <a class="navbar-brand" href="home.php">{{ config('app.name', 'Job Finder') }}</a>
+            <a class="navbar-brand" href="{{ route('frontend.index') }}">{{ config('app.name', 'Job Finder') }}</a>
             <span style="font-size: 2em; color: white;">
                 <i class="fas fa-book-open"></i>
             </span>
@@ -71,7 +71,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto ">
-                    <a class="nav-item nav-link " href="{{ route('home') }}" style="color: antiquewhite" ;>Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="{{ route('frontend.index') }}" style="color: antiquewhite" ;>Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="{{ route('login') }}" style="color: antiquewhite" ;>Login</a>
                     <a class="nav-item nav-link" href="{{ route('register') }}" style="color: antiquewhite" ;>Register</a>
                 </div>

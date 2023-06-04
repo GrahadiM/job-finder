@@ -36,6 +36,12 @@ class FrontendController extends Controller
         return view('user.category', $data);
     }
 
+    public function job_listing() {
+        $data['jobs']     = $this->jobModel->with('company', 'category')->get();
+        $data['category'] = $this->categoryModel->with('jobs')->get();
+        return view('user.job_listing', $data);
+    }
+
     public function job_detail($id) {
         $data['job'] = $this->jobModel->with('company', 'category')->where('id', $id)->first();
         return view('user.job-detail', $data);

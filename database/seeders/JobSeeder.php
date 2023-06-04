@@ -60,7 +60,7 @@ class JobSeeder extends Seeder
 
         Job::create([
             'name'          => 'Flutter Developer',
-            'category_id'   => '3',
+            'category_id'   => '4',
             'company_id'    => '2',
             'salary_min'    => 4000000,
             'salary_max'    => 6500000,
