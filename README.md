@@ -9,6 +9,9 @@ This is Job Finder uses Laravel 8.
 - JavaScript
 - Bootstrap
 
+### Backend
+- Laravel 8
+- Node Js
 ### Database or Data
 - MySQL
 ## Folder Structure
@@ -65,19 +68,38 @@ This is Job Finder uses Laravel 8.
 <details>
 	<summary>Contact</summary>
 	
-![Contact](public/images/ontact.png)
+![Contact](public/images/contact.png)
 </details>
 
 ## Installation
 ### Clone Repo
 
 ```bash
-git clone https://github.com/GrahadiM/ToDo-App-with-React-JS.git
+git clone https://github.com/GrahadiM/job-finder.git
 ```
 ### Go to folder
 
 ```bash
-cd ToDo-App-with-React-JS
+cd job-finder
+```
+### Install App with composer
+
+```bash
+composer install
+```
+or
+```bash
+composer update
+```
+### Clone and Setting file .env
+
+```bash
+cp .env.example .env
+```
+### Push Migration or Database
+
+```bash
+php artisan migrate:fresh --seed
 ```
 ### Install and build App with npm
 
@@ -91,5 +113,5 @@ npm run dev
 ### Run App
 
 ```bash
-npm run start
+php artisan serve
 ```
