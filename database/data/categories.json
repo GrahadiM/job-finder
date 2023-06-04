@@ -1,0 +1,10 @@
+[
+    {"name": "Design & Creative", "icon": "flaticon-tour"},
+    {"name": "Design & Development", "icon": "flaticon-cms"},
+    {"name": "Sales & Marketing", "icon": "flaticon-report"},
+    {"name": "Mobile Application", "icon": "flaticon-app"},
+    {"name": "Construction", "icon": "flaticon-helmet"},
+    {"name": "Information Technology", "icon": "flaticon-high-tech"},
+    {"name": "Real Estate", "icon": "flaticon-real-estate"},
+    {"name": "Content Writer", "icon": "flaticon-content"}
+]
